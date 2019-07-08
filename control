@@ -1,0 +1,9 @@
+Package: gilesgc.pivot
+Name: Pivot
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Customize the Firefox focus gradient colors
+Maintainer: gilesgc
+Author: gilesgc
+Section: Tweaks
