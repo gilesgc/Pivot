@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.gilesgc.pivot</string>
+			<key>key</key>
+			<string>isEnabled</string>
+			<key>label</key>
+			<string>Enable tweak</string>
+			<key>PostNotification</key>
+			<string>com.gilesgc.pivot/prefChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Colors</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>Color 1 (Top left)</string>
+			<key>libcolorpicker</key>
+			<dict>
+				<key>alpha</key>
+				<false/>
+				<key>fallback</key>
+				<string>#000000</string>
+				<key>key</key>
+				<string>topLeftColor</string>
+				<key>defaults</key>
+				<string>com.gilesgc.pivot.color</string>
+			</dict>
+			<key>cellClass</key>
+			<string>PFSimpleLiteColorCell</string>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>PostNotification</key>
+			<string>com.gilesgc.pivot/prefChanged</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>Color 2 (Middle)</string>
+			<key>libcolorpicker</key>
+			<dict>
+				<key>alpha</key>
+				<false/>
+				<key>fallback</key>
+				<string>#000000</string>
+				<key>key</key>
+				<string>middleColor</string>
+				<key>defaults</key>
+				<string>com.gilesgc.pivot.color</string>
+			</dict>
+			<key>cellClass</key>
+			<string>PFSimpleLiteColorCell</string>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>PostNotification</key>
+			<string>com.gilesgc.pivot/prefChanged</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>Color 3 (Bottom right)</string>
+			<key>libcolorpicker</key>
+			<dict>
+				<key>alpha</key>
+				<false/>
+				<key>fallback</key>
+				<string>#000000</string>
+				<key>key</key>
+				<string>bottomRightColor</string>
+				<key>defaults</key>
+				<string>com.gilesgc.pivot.color</string>
+			</dict>
+			<key>cellClass</key>
+			<string>PFSimpleLiteColorCell</string>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>PostNotification</key>
+			<string>com.gilesgc.pivot/prefChanged</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Pivot</string>
+</dict>
+</plist>

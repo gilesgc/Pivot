@@ -1,1 +1,7 @@
-{ Filter = { Bundles = ( "org.mozilla.ios.Focus" ); }; }
+{
+	Filter = {
+		Bundles = (
+			"org.mozilla.ios.Focus",
+		);
+	};
+}
