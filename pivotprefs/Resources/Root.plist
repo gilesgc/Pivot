@@ -32,7 +32,7 @@
 				<key>alpha</key>
 				<false/>
 				<key>fallback</key>
-				<string>#000000</string>
+				<string>#A6064C</string>
 				<key>key</key>
 				<string>topLeftColor</string>
 				<key>defaults</key>
@@ -53,7 +53,7 @@
 				<key>alpha</key>
 				<false/>
 				<key>fallback</key>
-				<string>#000000</string>
+				<string>#8E0770</string>
 				<key>key</key>
 				<string>middleColor</string>
 				<key>defaults</key>
@@ -74,7 +74,7 @@
 				<key>alpha</key>
 				<false/>
 				<key>fallback</key>
-				<string>#000000</string>
+				<string>#58086B</string>
 				<key>key</key>
 				<string>bottomRightColor</string>
 				<key>defaults</key>

@@ -11,9 +11,9 @@ static void loadPrefs() {
   tweakIsEnabled = [prefs objectForKey:@"isEnabled"] ? [[prefs objectForKey:@"isEnabled"] boolValue] : YES;
 
   NSDictionary *colorPrefs = [NSDictionary dictionaryWithContentsOfFile:@"/var/mobile/Library/Preferences/com.gilesgc.pivot.color.plist"];
-  topLeftColor = LCPParseColorString([colorPrefs objectForKey:@"topLeftColor"], @"#000000");
-  middleColor = LCPParseColorString([colorPrefs objectForKey:@"middleColor"], @"#000000");
-  bottomRightColor = LCPParseColorString([colorPrefs objectForKey:@"bottomRightColor"], @"#000000");
+  topLeftColor = LCPParseColorString([colorPrefs objectForKey:@"topLeftColor"], @"#A6064C");
+  middleColor = LCPParseColorString([colorPrefs objectForKey:@"middleColor"], @"#8E0770");
+  bottomRightColor = LCPParseColorString([colorPrefs objectForKey:@"bottomRightColor"], @"#58086B");
 }
 
 %hook FFGradientBackgroundView
